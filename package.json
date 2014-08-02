@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/tjwebb/node-google-discovery-document",
   "dependencies": {
+    "congruence": "^1.5.4",
     "lodash": "^2.4.1"
   },
   "devDependencies": {
