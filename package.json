@@ -1,0 +1,32 @@
+{
+  "name": "google-discovery-validator",
+  "version": "0.0.0",
+  "description": "Validate a google discovery doc",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjwebb/node-google-discovery-validator.git"
+  },
+  "keywords": [
+    "google",
+    "discovery",
+    "document",
+    "apis",
+    "rest"
+  ],
+  "author": "Travis Webb <me@travisewebb.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/tjwebb/node-google-discovery-validator/issues"
+  },
+  "homepage": "https://github.com/tjwebb/node-google-discovery-validator",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
