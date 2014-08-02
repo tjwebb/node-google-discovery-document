@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- '0.10'
+- '0.11'
+
+notifications:
+  email: false
+
+deploy:
+  provider: npm
+  email: me@traviswebb.com
+  api_key:
+    secure: PRq4qVj/FAem2GAVvFNZHgQmR/TLULR7EqB2/imcCy0h/Ull9W8OpFPzM/7668fjrGoEHvc2iifqVGzFMGojK8ZS7f867+M8ce+V52SH5blVTx8JB6mDQD72U4y1rZL0reurtEGs3oDMrcvZ8bLYfc0F8QHTbtQv4kAc3284+Kc=
+  on:
+    tags: true
+    repo: tjwebb/node-google-discovery-document
