@@ -28,5 +28,8 @@
   "homepage": "https://github.com/tjwebb/node-google-discovery-document",
   "dependencies": {
     "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "requireindex": "^1.1.0"
   }
 }
