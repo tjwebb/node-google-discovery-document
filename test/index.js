@@ -1,8 +1,18 @@
+'use strict';
+
+var _ = require('lodash');
+var assert = require('assert');
+
 describe('google-discovery-document', function () {
   var DiscoveryDocument = require('../');
 
   describe('#validate', function () {
-    var xtuple_demo_doc = require('./xtuple_demo_pilot');
+
+    _.each(require('./fixtures'), function (doc, name) {
+      it('test document ' + name, function () {
+        assert(DiscoveryDocument.validate(doc));
+      });
+    });
 
   });
 

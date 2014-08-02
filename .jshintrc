@@ -8,6 +8,9 @@
   "node": true,
   "esnext": true,
   "globals": {
-    "main": true
+    "describe": true,
+    "it": true,
+    "before": true,
+    "after": true
   }
 }
