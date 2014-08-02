@@ -1,7 +1,7 @@
 {
-  "name": "google-discovery-validator",
+  "name": "google-discovery-document",
   "version": "0.0.0",
-  "description": "Validate a google discovery doc",
+  "description": "Create and validate a Google API discovery document for use with your own REST service",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tjwebb/node-google-discovery-validator.git"
+    "url": "https://github.com/tjwebb/node-google-discovery-document.git"
   },
   "keywords": [
     "google",
@@ -23,9 +23,9 @@
   "author": "Travis Webb <me@travisewebb.com>",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/tjwebb/node-google-discovery-validator/issues"
+    "url": "https://github.com/tjwebb/node-google-discovery-document/issues"
   },
-  "homepage": "https://github.com/tjwebb/node-google-discovery-validator",
+  "homepage": "https://github.com/tjwebb/node-google-discovery-document",
   "dependencies": {
     "lodash": "^2.4.1"
   }
