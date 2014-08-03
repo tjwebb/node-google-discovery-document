@@ -5,7 +5,7 @@ Create and validate [Google Discovery Documents](https://developers.google.com/d
 
 ## Install
 ```sh
-$ npm install --save google-discovery-document
+$ npm install google-discovery-document --save
 ```
 
 ```js
