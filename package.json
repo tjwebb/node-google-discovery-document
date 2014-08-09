@@ -1,6 +1,6 @@
 {
   "name": "google-discovery-document",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Create and validate a Google API discovery document for use with your own REST service",
   "main": "index.js",
   "directories": {
