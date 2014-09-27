@@ -1,7 +1,7 @@
 language: node_js
 node_js:
-- '0.10'
-- '0.11'
+  - '0.10'
+  - '0.11'
 
 notifications:
   email: false
@@ -14,3 +14,4 @@ deploy:
   on:
     tags: true
     repo: tjwebb/node-google-discovery-document
+    all_branches: true
