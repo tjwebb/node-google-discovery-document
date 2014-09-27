@@ -21,7 +21,7 @@
     "rest"
   ],
   "author": "Travis Webb <me@travisewebb.com>",
-  "license": "MPL-2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tjwebb/node-google-discovery-document/issues"
   },
